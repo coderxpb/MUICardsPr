@@ -9,7 +9,7 @@ interface PropTypes {
 export const ButtonGroup = (props: PropTypes) => {
   const { onLeftClicked, onRightClicked } = props;
   return (
-    <Stack direction={'row'} spacing={4}>
+    <Stack direction={'row'} sx={{ justifyContent:'center', alignItems:'center'}} spacing={2}>
       <IconButton sx={{ width: 44, height: 44 }} onClick={onLeftClicked}>
         <Avatar src={blueLeftArrow} />
       </IconButton>

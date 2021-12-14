@@ -1,17 +1,22 @@
 import { Avatar, Card, CardContent, Stack, Typography } from '@mui/material';
 import { ReactElement } from 'react';
-import {IReviewData} from "../IReviewData";
+import { IReviewData } from '../IReviewData';
 
-interface PropsType{
-  user: IReviewData,
-  align?: string,
+interface PropsType {
+  user: IReviewData;
+  align?: string;
 }
 export const AvatarCard = (props: PropsType) => {
-  const { align, user} = props;
+  const { align, user } = props;
 
   console.log(user.avatar);
   return (
-    <Stack sx={{ maxWidth: 600, alignItems: 'center', alignSelf: align || "flex-start", }}>
+    <Stack
+      sx={{
+        maxWidth: 600,
+        alignItems: 'center',
+        alignSelf: align || 'flex-start',
+      }}>
       <Avatar
         sx={{
           width: 72,
@@ -28,12 +33,18 @@ export const AvatarCard = (props: PropsType) => {
               justifyContent: 'center',
               alignItems: 'center',
               paddingTop: '40px',
-            }}>
-            <Typography sx={{ fontWeight: 500, textAlign: 'center' }}>
+            }}
+            spacing={1}>
+            <Typography
+              sx={{ fontSize: 18, fontWeight: 500, textAlign: 'center' }}>
               {user.description}
             </Typography>
-            <Typography sx={{ fontWeight: 700 }}>{user.name}</Typography>
-            <Typography sx={{ fontWeight: 300 }}>{user.role}</Typography>
+            <Typography sx={{ fontSize: 16, fontWeight: 700 }}>
+              {user.name}
+            </Typography>
+            <Typography sx={{ fontSize: 12, fontWeight: 300 }}>
+              {user.role}
+            </Typography>
           </Stack>
         </CardContent>
       </Card>

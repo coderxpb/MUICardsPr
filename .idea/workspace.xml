@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b038d52f-22e6-4d7d-8408-952c7b2b52a2" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/IReviewData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonGroup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ReviewPage.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/muiTheme.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tempData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -14,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AvatarCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AvatarCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639465267070</updated>
-      <workItem from="1639465269327" duration="7087000" />
+      <workItem from="1639465269327" duration="8983000" />
     </task>
     <servers />
   </component>
